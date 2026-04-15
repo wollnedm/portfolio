@@ -58,7 +58,7 @@ margin-top: 2rem;
 }
 
 .links>a:hover{
-    color: rgb(223, 164, 0);
+    color: rgb(223, 164, 0);}
 
 .link1, .link2{background-color: white;
 padding:1rem;}
