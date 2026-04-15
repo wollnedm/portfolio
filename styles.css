@@ -4,26 +4,100 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-weight: 400;
     font-size: small;
-    margin:3rem;
+    margin:0rem;
     background-image:url(images/clouds.jpg);
     background-size:cover;
 }
+
+.indent{margin:3rem;}
 
 .block{background-color: white;
 background-size: 100%;}
 
 header{
     background-color: #fcffc3;
-    margin:0rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
-!!!!#intro{padding: 1rem;}!!!
+header>img{
+    width:5rem;
+    max-width: 100%;
+    padding-right: 1rem;
+}
 
-li{
+nav>a:hover{
+    color: rgb(223, 164, 0);
+}
+header{
+    display: flex;
+    padding:1rem
+}
+
+nav{
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+h2, h3{color: rgb(2, 2, 66);
+padding-top: 1rem;}
+
+h3{padding-left: 1rem;}
+
+.content{padding-left: 1.5rem;
+padding-right: 1.5rem;
 padding-bottom: 1rem;
-padding-right: 1rem;}
-p{padding-right: 1rem;
-padding-left: 1rem;}
+padding-top: 1rem;}
 
-footer{background-color: #fcffc3;}
+.links{justify-content: space-around;
+display: flex;
+margin-bottom: 2rem;}
+
+.link1, .link2{background-color: white;
+padding:1rem;}
+
+.yellow{background-color: #fcffc3;
+color:#fcffc3;
+font-size: large;}
+
+footer{background-color: #fcffc3;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+}
+
+@media (min-width:800px){
+.link1, .link2{background-color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 6rem;
+padding-right: 6rem;}
+
+#gallery{margin-left:.5rem}
+}
+
+@media (min-width:1100px){
+footer{background-color: #fcffc3;
+display:flex;
+flex-direction: row;
+justify-content: center;
+gap: 1rem;
+}
+
+
+.link1, .link2{background-color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 10rem;
+padding-right: 10rem;}
+
+.bigindent{margin-left:15rem;
+margin-right:15rem}
+
+#about-me{margin-left:15rem}
+
+#gallery{margin-left:1.5rem}
 }
