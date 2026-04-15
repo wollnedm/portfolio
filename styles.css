@@ -54,7 +54,11 @@ padding-top: 1rem;}
 .links{justify-content: space-around;
 display: flex;
 margin-bottom: 2rem;
-margin-top: 2rem;}
+margin-top: 2rem;
+}
+
+.links>a:hover{
+    color: rgb(223, 164, 0);
 
 .link1, .link2{background-color: white;
 padding:1rem;}
